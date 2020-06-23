@@ -36,10 +36,10 @@
 		1B1BECC224A294ED007D15F3 /* magical.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B1BECC124A294ED007D15F3 /* magical.txt */; };
 		1B1BECC424A29D99007D15F3 /* Test Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC324A29D99007D15F3 /* Test Int.swift */; };
 		1B1BECC524A29D99007D15F3 /* Test Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC324A29D99007D15F3 /* Test Int.swift */; };
-		1B1BECC724A2A5A5007D15F3 /* Test Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC624A2A5A5007D15F3 /* Test Values.swift */; };
-		1B1BECC824A2A5A5007D15F3 /* Test Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC624A2A5A5007D15F3 /* Test Values.swift */; };
-		1B1BECCA24A2AA19007D15F3 /* Strange Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC924A2AA19007D15F3 /* Strange Types.swift */; };
-		1B1BECCB24A2AA19007D15F3 /* Strange Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC924A2AA19007D15F3 /* Strange Types.swift */; };
+		1B1BECC724A2A5A5007D15F3 /* Test Let.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC624A2A5A5007D15F3 /* Test Let.swift */; };
+		1B1BECC824A2A5A5007D15F3 /* Test Let.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC624A2A5A5007D15F3 /* Test Let.swift */; };
+		1B1BECCA24A2AA19007D15F3 /* Test Strange Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC924A2AA19007D15F3 /* Test Strange Types.swift */; };
+		1B1BECCB24A2AA19007D15F3 /* Test Strange Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC924A2AA19007D15F3 /* Test Strange Types.swift */; };
 		1B1BECCD24A2AA56007D15F3 /* Test Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECCC24A2AA56007D15F3 /* Test Double.swift */; };
 		1B1BECCE24A2AA56007D15F3 /* Test Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECCC24A2AA56007D15F3 /* Test Double.swift */; };
 /* End PBXBuildFile section */
@@ -75,8 +75,8 @@
 		1B1BECA424A2946B007D15F3 /* CreatingValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatingValues.swift; sourceTree = "<group>"; };
 		1B1BECC124A294ED007D15F3 /* magical.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = magical.txt; sourceTree = "<group>"; };
 		1B1BECC324A29D99007D15F3 /* Test Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Int.swift"; sourceTree = "<group>"; };
-		1B1BECC624A2A5A5007D15F3 /* Test Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Values.swift"; sourceTree = "<group>"; };
-		1B1BECC924A2AA19007D15F3 /* Strange Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strange Types.swift"; sourceTree = "<group>"; };
+		1B1BECC624A2A5A5007D15F3 /* Test Let.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Let.swift"; sourceTree = "<group>"; };
+		1B1BECC924A2AA19007D15F3 /* Test Strange Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Strange Types.swift"; sourceTree = "<group>"; };
 		1B1BECCC24A2AA56007D15F3 /* Test Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Double.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,8 +145,8 @@
 				1B1BEC9424A2943B007D15F3 /* Tester.swift */,
 				1B1BECC324A29D99007D15F3 /* Test Int.swift */,
 				1B1BECCC24A2AA56007D15F3 /* Test Double.swift */,
-				1B1BECC624A2A5A5007D15F3 /* Test Values.swift */,
-				1B1BECC924A2AA19007D15F3 /* Strange Types.swift */,
+				1B1BECC624A2A5A5007D15F3 /* Test Let.swift */,
+				1B1BECC924A2AA19007D15F3 /* Test Strange Types.swift */,
 				1B1BEC9624A2943B007D15F3 /* Info.plist */,
 			);
 			path = Tester;
@@ -259,9 +259,9 @@
 			files = (
 				1B1BECAB24A2946B007D15F3 /* Extensions.swift in Sources */,
 				1B1BECB524A2946B007D15F3 /* ExcecuteLine.swift in Sources */,
-				1B1BECC724A2A5A5007D15F3 /* Test Values.swift in Sources */,
+				1B1BECC724A2A5A5007D15F3 /* Test Let.swift in Sources */,
 				1B1BECAF24A2946B007D15F3 /* Begin.swift in Sources */,
-				1B1BECCA24A2AA19007D15F3 /* Strange Types.swift in Sources */,
+				1B1BECCA24A2AA19007D15F3 /* Test Strange Types.swift in Sources */,
 				1B1BECB124A2946B007D15F3 /* ResolveExpression.swift in Sources */,
 				1B1BECB924A2946B007D15F3 /* CreatingValues.swift in Sources */,
 				1B1BECCD24A2AA56007D15F3 /* Test Double.swift in Sources */,
@@ -282,9 +282,9 @@
 			files = (
 				1B1BECAC24A2946B007D15F3 /* Extensions.swift in Sources */,
 				1B1BECB624A2946B007D15F3 /* ExcecuteLine.swift in Sources */,
-				1B1BECC824A2A5A5007D15F3 /* Test Values.swift in Sources */,
+				1B1BECC824A2A5A5007D15F3 /* Test Let.swift in Sources */,
 				1B1BECB024A2946B007D15F3 /* Begin.swift in Sources */,
-				1B1BECCB24A2AA19007D15F3 /* Strange Types.swift in Sources */,
+				1B1BECCB24A2AA19007D15F3 /* Test Strange Types.swift in Sources */,
 				1B1BECB224A2946B007D15F3 /* ResolveExpression.swift in Sources */,
 				1B1BECBA24A2946B007D15F3 /* CreatingValues.swift in Sources */,
 				1B1BECCE24A2AA56007D15F3 /* Test Double.swift in Sources */,

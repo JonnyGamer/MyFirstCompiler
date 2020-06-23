@@ -8,7 +8,7 @@
 import XCTest
 
 extension TestInt {
-
+    
     // Check if all these are of type Int
     func testIfTheseAreTypeInt() {
         let int = "Int"

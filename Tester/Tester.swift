@@ -9,8 +9,21 @@ import XCTest
 
 class TestInt: XCTestCase {}
 class TestDoubles: XCTestCase {}
-class LetValues: XCTestCase {}
-class StrangeTypes: XCTestCase {}
+class TestLetValues: XCTestCase {}
+class TestStrangeTypes: XCTestCase {}
+
+
+extension XCTestCase {
+    open override func tearDown() { pointers.removeAll() }
+}
+
+
+
+
+
+
+
+
 
 
 //func testPrintFunction() {

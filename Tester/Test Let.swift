@@ -7,10 +7,7 @@
 
 import XCTest
 
-extension LetValues {
-    override func tearDown() {
-        pointers.removeAll()
-    }
+extension TestLetValues {
     
     // Immediate Assignment Test
     func testImmediateAssignment() {

@@ -7,7 +7,8 @@
 
 import XCTest
 
-extension StrangeTypes {
+extension TestStrangeTypes {
+    
     func testStrangeValues() {
         XCTAssert(resolveType("/ /") == "Regex")
         XCTAssert(resolveType("()") == "Void")
