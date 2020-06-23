@@ -122,7 +122,7 @@ func assignValue(_ valueName: String,_ to: String) throws -> String {
         
     } else { throw E.custom("Cannot mutate nonexistant value") }
     pointers["_"] = nil
-    return "Void"
+    return "()"
 }
 
 func deleteValue(_ line: String) {

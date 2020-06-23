@@ -81,7 +81,7 @@ public var bit: [String:(regex: String, clean: (String) -> String)] = [
                 return a
     }),
     
-    "Void": (regex: #"Void|\(\)"#, clean: { $0 }),
+    "Void": (regex: #"\(\)"#, clean: { $0 }),
     
     // "Any": (regex: "^.+$", clean: { $0 }),
 ]

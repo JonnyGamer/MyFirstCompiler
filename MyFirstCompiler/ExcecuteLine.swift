@@ -11,7 +11,7 @@ import Regex
 
 var multilineComment = false
 
-func runLine(_ lino: String,_ lineNumber: Int) throws {
+func runLine(_ lino: String,_ lineNumber: Int = 0) throws {
     var line = lino
     
     // Embarrasing Glitch. Fixing print("HI there"). Etc. PUTTING VALUES IN POINTER LOCC

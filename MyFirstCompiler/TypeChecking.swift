@@ -36,7 +36,7 @@ public func resolveValue(_ name: String) -> String? {
         o = c.val
     }
     if let ao = getType(o) {
-        return bit[ao]?.clean(o)
+        return bit[ao]?.clean(o) ?? o
     } else {
         return pointers[name]?.type
     }
