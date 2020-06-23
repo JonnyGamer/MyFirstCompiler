@@ -17,7 +17,7 @@ public extension String {
         }
         return str
     }
-    func rp1(_ what: StaticString, with: String) -> String {
+    func rp1(_ what: StaticString,_ with: String) -> String {
         return self.replacingFirst(matching: Regex(what), with: with)
     }
 }

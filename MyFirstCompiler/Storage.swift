@@ -38,10 +38,10 @@ public extension Dictionary where Key == String, Value == (type: String, val: St
 public extension Dictionary where Key == String, Value == (regex: String, clean: (String) -> String) {
     
     func find(_ value: String) -> Element? {
-        var on = ""
+        var _ = ""
         do {
             for i in self {
-                on = i.key + ": " + i.value.regex
+                // on = i.key + ": " + i.value.regex
                 if try !Regex(string: "^(" + i.value.regex + ")$").allMatches(in: value).isEmpty {
                     return i
                 }
@@ -71,8 +71,13 @@ public var bit: [String:(regex: String, clean: (String) -> String)] = [
     
     "Double": (regex: #"-?\d+\.\d+"#,
                clean: {
-                var a = $0
-                if !a.hasSuffix(".0") { a = $0.rp1(#"(\.(0|.*?))0+$"#, with: "$1") }
+                // Remove all leading Zeros
+                var a = $0.rp1(#"^(-?)0+(.+\.)"#, "$1$2")
+                // Remove all trailing Zeros
+                a = a.rp1(#"(\..+?)0+$"#, "$1")
+                if a == "-0.0" { a = "0.0" }
+                // var a = $0
+                // if !a.hasSuffix(".0") { a = $0.rp1(#"(\.(0|.*?))0+$"#, with: "$1") }
                 return a
     }),
     
