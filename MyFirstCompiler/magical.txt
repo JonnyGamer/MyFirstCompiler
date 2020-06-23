@@ -1,0 +1,251 @@
+// DO NOT EDIT
+
+print("\n")
+
+print("a is 5")
+ref gggg Int = 5
+print(gggg)
+
+typeOf(gggg)
+gggg skip if (true)
+
+// print("\n")
+// let a, b, c, d, e Int = 5
+
+
+if "1      " == "1      "
+print("WORKED")
+end if
+
+// let b Int = 5
+// print(b)
+// typeOf(b)
+
+let a = 5; rmv a
+
+print("a")
+print("a")
+
+print("a")
+print("a")
+
+let a = 5
+print(a)
+typeOf(a)
+if a is 5
+print("a is 5")
+or if a is 6
+print("a is 6")
+end if
+
+// print("5\n5")
+if "helo    " as String
+print("HAHAHAH")
+end if
+
+if "hi" is "hi"
+print("WOROKED")
+end if
+if "hi   " is "hi    "
+print("WORKED")
+end if
+
+let b Test2<Int, Test1<Int>> = 5
+typeOf(b)
+print(b)
+b = 9
+print(b)
+b = 10
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+print(true as Type)
+print(true as Bool as Bool is (Bool as Type))
+print((5 as Bool as Bool) as (Bool as Type))
+
+var ab Type
+ab = Double
+print(ab)
+typeOf(ab)
+ab = Type
+print(ab)
+typeOf(ab)
+
+
+// typeOf(Type)
+
+any a
+a = 1
+typeOf(a)
+
+ref b
+b = a
+
+
+typeOf(b)
+a = 1.0
+typeOf(b)
+
+
+any Hahaha Int
+Hahaha = 5
+Hahaha = "5"
+
+
+var ao Int
+ao = 0
+// print(a0 as Any<Int>) something happened here?
+
+print(Test1<Int> is Test1<Int>)
+print(Test1<Int> as Type)
+
+typeOf(Int)
+print(Test1<Int>)
+print(Test1<Test1<Int>>)
+print(Test2<Int, Test2<Int, Double>>)
+
+let aaa Type
+aaa = Bool
+print(aaa)
+
+any rido
+print(5 as Int as Bool)
+print(Bool == Int)
+print(5 as Any)
+print(rido == rido == true is (5 == 7 != false))
+typeOf(rido)
+rido = 0
+print(rido)
+typeOf(rido)
+rido = "strino"
+typeOf(rido)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+skip if true; print("foo")
+print("Not skipped?")
+
+1 skip
+print("dibs")
+print("bubs")
+
+
+
+print("hey")
+
+
+if true
+    print("1"); print("2")
+    if false
+        print("wo")
+    or
+        print("puu")
+    end if
+    print("3")
+or if true
+  print("pepe")
+or
+ print("HAHAHAH")
+end if
+
+
+
+
+
+
+
+
+skip
+/* if true; //print(5); //end if
+
+/*
+var magical Any
+magical
+magical = 8; magical = 9; magical = 100
+typeOf(magical)
+print(magical)
+
+ref hh
+hh = magical
+
+typeOf(hh)
+magical = 1.0
+typeOf(hh)
+
+var hello
+hello = magical
+print(hello)
+magical = 4
+print(hello)
+print(hh)
+
+var a
+a = 1
+a = 1.0
+a = /hello/
+typeOf(a)
+print(a)
+// print("")
+// print()
+
+var ab Bool
+ab = true
+var aa Bool
+aa = true
+aa = ab
+
+// skip if true
+// print("IT WORKED THANK YOU")
+
+
+if true
+print("IT WORKED")
+print("YO MAMA")
+end if
+*/
+
+// var mom
+// print(mom)
+// mom = true
+// if mom - Expected Error, It Statements must be Booleans
+// print("poo")
+
+// aa = true;// ab = true
+// if aa;// if ab
+// print("yoyoyoyo")
+
+
+// var magical: Any
+// val magical
+// ref magical
+// let magical
+
+// var magical: Int
+// val magical Int
+// ref magical Int
+// let magical Int
+
