@@ -6,21 +6,17 @@
 //
 
 import XCTest
-
+    
 class TestInt: XCTestCase {}
 class TestDoubles: XCTestCase {}
 class TestLetValues: XCTestCase {}
 class TestStrangeTypes: XCTestCase {}
-
+class TestVarValues: XCTestCase {}
+class TestRefValues: XCTestCase {}
 
 extension XCTestCase {
     open override func tearDown() { pointers.removeAll() }
 }
-
-
-
-
-
 
 
 

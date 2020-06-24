@@ -95,12 +95,18 @@ func assignValue(_ valueName: String,_ to: String) throws -> String {
                     if let blo = pointers[to]?.any { pointers[valueName]?.any = blo }
                     if Regex(#"^__.+__$"#).matches(to), let ao = resolveValue(to) {
                         pointers[valueName]?.val = ao
-                    } else {
+                    } else if let bb = resolveType(to) {
                         pointers[valueName]?.val = to
+                        if po.type == "Undefined" {
+                            pointers[valueName]?.type = bb
+                        }
                     }
                 } else {
-                    if let aa = resolveValue(to) {
+                    if let aa = resolveValue(to), let bb = resolveType(to) {
                         pointers[valueName]?.val = aa
+                        if po.type == "Undefined" {
+                            pointers[valueName]?.type = bb
+                        }
                     } else {
                         throw E.custom("Your Type Regex didn't work")
                     }
