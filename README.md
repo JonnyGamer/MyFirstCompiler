@@ -137,16 +137,15 @@ You can *even nest em*<br>
 `or` is the same as the `else` in Swift.
 `or if` is the same as the `else if` in Swift.
 
-`
-any a = Somethinf Rrandom
-if (a as Int)
-   do this
-or if (a as Double)
-   do this instead
-or
-   do this
-end if
-`
+
+`any a = Somethinf Rrandom`<br>
+`if (a as Int)`<br>
+`   do this`<br>
+`or if (a as Double)`<br>
+`   do this instead`<br>
+`or`<br>
+`   do this`<br>
+`end if`<br>
 
 `or if` is unlimited, you can use as many as you want.
 
