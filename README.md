@@ -1,5 +1,5 @@
 # My First Compiler
-The following descibes my first take at a compiler. I am creating a new language similar to Swift that is parsed on-time.
+The following descibes my first take at a compiler. I am creating a new language similar to Swift that is parsed on-time. However, this programming language will have built in benefits. It will include Easy Regex support, and also use NumberKit allowing for Ints with no limit.
 
 
 ## Data Types
@@ -8,11 +8,19 @@ I have created several base Types. Each one has their own Regex definition, and 
  - **A** This is a Regular Expression that can match against a String. If true, that String is of the correct format.
  - **Q** What is a cleaner?
  - **A** If a String matches with a specific Regex Definition, it can be cleaned. Example: `-0001.0` is cleaned to `-1.0`
+ 
+**My Base Types**
+ - **Bool** - `true|false`
+ - **Int** - `-?\d+`
+ - **Double** - `-?\d+\.\d+`
+ - **String** - `\"[^\"]*\"`
 
 **TODO**
  - Give Regex Defitions different priorority levels
  - Allow multiple Regex Defitions for types
-
+ - Support meta characters for the String data type
+ - Support a Paragraph data type allowing for Multiline Strings
+ - Support a Code data type `{ place code here }` allowing for sneaky code snipping
 
 ## Storing Data
 There are 4 ways you can save data<br>
