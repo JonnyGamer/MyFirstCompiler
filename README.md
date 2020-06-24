@@ -87,6 +87,8 @@ I have 2 built in methods `print` and `typeOf`<br>
 `print(5)` This prints anything inside the parenthesis.<br>
 `typeOf(5)` This prints the type of the object inside the parenthesis.
 
+Right now these are the only 2 methods. I will soon add support for custom methods with parameters and return types.
+
 ## Operators
 I have built a couple operators.<br>
 Operators are resolve left to right, based upon a numeric priority
@@ -96,6 +98,8 @@ Operators are resolve left to right, based upon a numeric priority
 `is` - An alias of the `==` operator. I will add beter alias support soon. I love words, so I will allow wordy operators unlike Swift.<br>
 `!=` - An Inequality Operator: Checks if 2 values of the same type are equal. Returns a Bool.<br>
 `as` - A type checking operator: `5 as Int` returns `true`. `Bool as Type` returns `true`.
+
+Currently I am only supporting `infix` operators. I will add suport for `prefix` and `postfix` very soon. I am also thinking of an `outfix` idea.
 
 ## Control Flow
 (Talk about if, or, or if, end if)<br>(Talk about Boolean Expressions)<br>(Talk about how you can nest them)
