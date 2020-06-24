@@ -181,15 +181,15 @@ Skip statements are finiky, and I made them on accident. I think you should not 
 ## Extras
 **Mutliline Expressions**<br>
 • Allows for `let a = 5; let b = 6` writing 2 statements on 1 line.
-• You can even do this: `if true; do this; end if`
+• You can even do this: `if true; do this; end if`<br>
 **Comments**
 • Allows you to comment out a single expression. `// let a = 6`
-• However, doing this `// var a = 6; a = 7` will not comment out the second line.
+• However, doing this `// var a = 6; a = 7` will not comment out the second line.<br>
 **Mutliline Comments**
 • Allows for massive comments `/*`<br>
 `this code is ignored`<br>
 `so is this`<br>
-`*/` <- This ends the massive comment
+`*/` <- This ends the massive comment<br>
 **Warning and Error Messages**<br>
 I have provided warning and error messages.<br>
 Errors stop your program and tells you what went wrong on what line.<br>
