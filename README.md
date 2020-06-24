@@ -14,6 +14,12 @@ I have created several base Types. Each one has their own Regex definition, and 
  - **Int** - `-?\d+`
  - **Double** - `-?\d+\.\d+`
  - **String** - `\"[^\"]*\"`
+ - **Regex** - `/.+/`
+ - **Undefined** - `undefined`
+ - **Void** - `\(\)`
+ 
+I also have special data types that do not have a Regex Definition.<br>
+The **Type** data type is `Bool|Int|Double|String|Regex|Undefined|Void|Type` but can also be extended when new objects are created.
 
 **TODO**
  - Give Regex Defitions different priorority levels
