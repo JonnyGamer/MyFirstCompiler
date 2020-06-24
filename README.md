@@ -33,7 +33,7 @@ There are 4 ways you can save data<br>
 `let` `var` `ref` `any`<br>
 I will explain each one
 
-• **let**<br>
+### let
 Let is immutable.<br>
 Once you save an object into `let`, you may not change it later.
  - `let a = 7` 'a' has been saved to 7. 'a' has also been inferred to be an Int.<br>
@@ -42,7 +42,7 @@ Once you save an object into `let`, you may not change it later.
 
 <br>
 
-• **var**<br>
+### var
 Var can be mutated.
 Once you save an object into `var`, you may reassign it later. However, it must be the same type.
  - `var a = 88; a = 90` 'a' starts out being '88', but then mutates to become '90'
@@ -50,7 +50,7 @@ Once you save an object into `var`, you may reassign it later. However, it must 
 
 <br>
 
-• **ref**<br>
+### ref
 Ref can store references of values. It can also be mutated to store different references of the same type.
 Once you save an object into `ref`, and when the object that has been assigned is mutated, the ref gets mutated as well.<br>
 Let's see this in action.
@@ -62,7 +62,7 @@ Let's see this in action.
 
 <br>
 
-• **any**<br>
+### any
 Any is a special value. It's value is mutable, and it's Type is also mutable. It is also can be a ref.<br>
 Woah.
 I have removed the `Any` type in Swift, and replaced it with this new storage type.
@@ -84,7 +84,7 @@ You can now assign it later.<br>
 This is not a mutation. It's an assignment.<br>
 If an object is undefined, you can assign it later.
 
-• **rmv**
+### rmv
 You can also delete values.<br>
 `let a = 5`<br>
 `rmv a `
@@ -102,7 +102,7 @@ Operators are resolve left to right, based upon a numeric priority
 `==` - Equality Operator: Checks if 2 values of the same type are equal. Returns a Bool.<br>
 `is` - An alias of the `==` operator. I will add beter alias support soon. I love words, so I will allow wordy operators unlike Swift.<br>
 `!=` - An Inequality Operator: Checks if 2 values of the same type are equal. Returns a Bool.<br>
-`as` - A type checking operator: `5 as Int` returns `true`.
+`as` - A type checking operator: `5 as Int` returns `true`. `Bool as Type` returns `true`.
 
 ## Control Flow
 (Talk about if, or, or if, end if)<br>(Talk about Boolean Expressions)<br>(Talk about how you can nest them)
