@@ -91,17 +91,17 @@ You can also delete values.<br>
 
 ## Built in Methods
 I have 2 built in methods `print` and `typeOf`<br>
-`print(5)` This prints anything inside the parenthesis.
+`print(5)` This prints anything inside the parenthesis.<br>
 `typeOf(5)` This prints the type of the object inside the parenthesis.
 
 ## Operators
 I have built a couple operators.<br>
 Operators are resolve left to right, based upon a numeric priority
 
-`=` - Assignment Operator: Creates a value on the lhs and assigns it to the rhs. Returns Void.
-`==` - Equality Operator: Checks if 2 values of the same type are equal. Returns a Bool.
-`is` - An alias of the `==` operator. I will add beter alias support soon. I love words, so I will allow wordy operators unlike Swift.
-`!=` - An Inequality Operator: Checks if 2 values of the same type are equal. Returns a Bool.
+`=` - Assignment Operator: Creates a value on the lhs and assigns it to the rhs. Returns Void.<br>
+`==` - Equality Operator: Checks if 2 values of the same type are equal. Returns a Bool.<br>
+`is` - An alias of the `==` operator. I will add beter alias support soon. I love words, so I will allow wordy operators unlike Swift.<br>
+`!=` - An Inequality Operator: Checks if 2 values of the same type are equal. Returns a Bool.<br>
 `as` - A type checking operator: `5 as Int` returns `true`.
 
 ## Control Flow
