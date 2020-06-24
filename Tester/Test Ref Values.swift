@@ -9,6 +9,13 @@ import XCTest
 
 extension TestRefValues {
     
+    func testThisBoi() {
+        XCTAssertNoThrow(try runLine("ref gggg Int = 5"))
+        XCTAssertNoThrow(try runLine("print(gggg)"))
+        XCTAssertNoThrow(try runLine("typeOf(gggg)"))
+        XCTAssert(resolveType("gggg") == "Int")
+    }
+    
     // Immediate Assignment Test
     func testImmediateAssignment() {
         XCTAssertNoThrow(try runLine("var a Int = 0"))

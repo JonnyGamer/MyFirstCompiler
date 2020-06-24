@@ -14,7 +14,7 @@ func begin(_ fileToRead: String = "magical.txt") {
     
     PRINT.share = false
     var a = #file
-    a = a.replacingFirst(matching: #"main\.swift"#, with: fileToRead)
+    a = a.replacingFirst(matching: #"Begin\.swift"#, with: fileToRead)
 
     let b = (try? String.init(contentsOfFile: a)) ?? ""
     let code = b.split(separator: "\n", maxSplits: .max, omittingEmptySubsequences: false)
