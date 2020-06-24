@@ -7,7 +7,7 @@ I have created several base Types. Each one has their own Regex definition, and 
  - **Q** What is a Regex Defition?<br>
  - **A** This is a Regular Expression that can match against a String. If true, that String is of the correct format.
  - **Q** What is a cleaner?
- - **A** If a String matches with a specific Regex Definition, it can be cleaned. Example: `-0001.0` is cleaned to `-1.0`
+ - **A** If a String matches with a specific Regex Definition, it can be cleaned. Example: `-0001.00` is cleaned to `-1.0`
  
 **My Base Types**
  - **Bool** - `true|false`
