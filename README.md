@@ -19,7 +19,7 @@ I have created several base Types. Each one has their own Regex definition, and 
  - **Void** - `\(\)`
  
 I also have special data types that do not have a Regex Definition.<br>
-The **Type** data type is `Bool|Int|Double|String|Regex|Undefined|Void|Type` but can also be extended when new objects are created.
+The **Type** data type is `Bool|Int|Double|String|Regex|Undefined|Void|Type` but can also will be automatically extended when new objects are created.
 
 **TODO**
  - Give Regex Defitions different priorority levels
@@ -48,8 +48,35 @@ Var can be mutated.
 Once you save an object into `var`, you may reassign it later. However, it must be the same type.
 >
 >• `var a = 88; a = 90` 'a' starts out being '88', but then mutates to become '90'
+>• `var a = 500; a = "magic"` This throws an error. The Type of var values cannot be mutated
 
 <br>
+
+>• **ref**<br>
+Ref can store references of values. It can also be mutated to store different references of the same type.
+Once you save an object into `ref`, and when the object that has been assigned is mutated, the ref gets mutated as well.<br>
+Let's see this in action.
+>
+>• `var a = 100`
+>• `ref b = a` This new b value is now a. b is *not* 100. b is a.
+>• `a = 300`
+>• `print(b)` This prints `300`. Since a was mutated
+
+<br>
+
+>• **any**<br>
+Any is a special value. It's value is mutable, and it's Type is also mutable. It is also can be a ref.<br>
+Woah.
+I have removed the `Any` type in Swift, and replaced it with this new storage type.
+>
+>• `any a = 100`
+>• `a = "now I am a String"` This is now ok with Any.
+>• `typeOf(a)` It prints String.
+>• `a = Double`
+>• `typeOf(a)` It prints Type.
+
+<br>
+
 
 
 
