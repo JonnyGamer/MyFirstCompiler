@@ -101,8 +101,95 @@ Operators are resolve left to right, based upon a numeric priority
 
 Currently I am only supporting `infix` operators. I will add suport for `prefix` and `postfix` very soon. I am also thinking of an `outfix` idea.
 
+## Parenthetical Expressions
+I have added support for complex operator expressions that use parenthesis.<br>
+Parenthesis have upmost priority and are resolve first in to out.
+
+`(5 == 5) != (6 == (7))` is a true satement.
+`(() as Void) == true` is also a true statement.
+
 ## Control Flow
-(Talk about if, or, or if, end if)<br>(Talk about Boolean Expressions)<br>(Talk about how you can nest them)
+`if true`<br>
+`  do this`<br>
+`end if`<br>
+<sub><sup>Indentation is optional :)</sup></sub>
+
+Welcome to If Statements!
+If a Boolean Expression resolves to `true`, some code can run!
+
+This is ok
+`if true == true`
+
+### Create your first if statement
+If statements must start with an `if` and end in an `end if`<br>
+(Maybe later it'll just be `end`)
+
+Immediately following the `if` must be a Boolean Expression that resolves either to `true` or `false`
+
+You can *even nest em*
+`if true`<br>
+`   if true`<br>
+`      print("We both truuue")`<br>
+`   end if`<br>
+`end if`
+
+### Or and Or If
+`or` is the same as the `else` in Swift.
+`or if` is the same as the `else if` in Swift.
+
+`any a = Somethinf Rrandom`<br>
+`if (a as Int)`<br>
+`   do this`<br>
+`or if (a as Double)`<br>
+`   do this instead`<br>
+`or`<br>
+`   do this`<br>
+`end if`
+
+`or if` is unlimited, you can use as many as you want.
 
 ## Skip Statements
-(Talk about skip, n skip, skip if, and n skip if)<br>(Talk about Integer Expressions)
+This part gets a little creepy.
+You can SKIPP lines of code.
+
+`skip`<br>
+`this code will NEVER RUN aaaah`
+
+`skip` skips over the next line.<br>
+Cool Trick:<br>
+`skip; print("I am not skipped")`<br>
+`I am skipped`<br>
+Skips only skip following lines. :)
+
+You can even specify how many lines you want to skip<br>
+`5 skip`<br>
+This skips 5 lines.<br>
+`let a = 5; (a + a) skip`<br>
+You can even use epxressions that resolve to an Int! (Once I add the `+` operator heh)
+
+**TODO:** `-1 skip` This skips the rest of the program.<br>
+**TODO:** `1.0 skip` Non Ints won't throw Error. Only warnings and won't skip.
+
+`skip if true`<br>
+This skip statement will skip 1 line, only if true is true. WOW!<br>
+`(a + a) skip if (a as Int)` You can even do this.
+
+**WARNING:**<br>
+Skip statements are finiky, and I made them on accident. I think you should not use them as they could cause your code to catastrophically break without a descriptive message. Skips are bad bad bad. But I love them :))) -1-1-1
+
+## Extras
+**Mutliline Expressions**<br>
+• Allows for `let a = 5; let b = 6` writing 2 statements on 1 line.
+• You can even do this: `if true; do this; end if`
+**Comments**
+• Allows you to comment out a single expression. `// let a = 6`
+• However, doing this `// var a = 6; a = 7` will not comment out the second line.
+**Mutliline Comments**
+• Allows for massive comments `/*`<br>
+`this code is ignored`<br>
+`so is this`<br>
+`*/` <- This ends the massive comment
+**Warning and Error Messages**<br>
+I have provided warning and error messages.<br>
+Errors stop your program and tells you what went wrong on what line.<br>
+Warnings never halt your code, but they give you a short message. (They can be turned off and ignored!)
