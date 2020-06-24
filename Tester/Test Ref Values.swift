@@ -48,14 +48,20 @@ extension TestRefValues {
         XCTAssert(resolveValue("j") == "1")
     }
     
+    func testReffing() {
+        XCTAssertNoThrow(try runLine("ref b Int = 1"))
+        XCTAssertNoThrow(try runLine("ref a Int = b"))
+        XCTAssert(resolveValue("a") == "1")
+    }
+    
 //    // I should probably not allow this one. DEFINETELY
 //    // FIX: You can only assign refs to VARIABLES, and not '0' or smth
-//    func testRefofSelf() {
-//        XCTAssertNoThrow(try runLine("ref a = 0"))
-//        XCTAssertNoThrow(try runLine("ref b = a"))
-//        XCTAssertNoThrow(try runLine("ref c = b"))
-//        XCTAssertNoThrow(try runLine("a = c"))
-//    }
+    func testRefofSelf() {
+        XCTAssertNoThrow(try runLine("ref a = 0"))
+        XCTAssertNoThrow(try runLine("ref b = a"))
+        XCTAssertNoThrow(try runLine("ref c = b"))
+        XCTAssertNoThrow(try runLine("a = c"))
+    }
     
     // If I allow this, I have to do something trickier above ^^^^
     func testUndefinedAssignment() {

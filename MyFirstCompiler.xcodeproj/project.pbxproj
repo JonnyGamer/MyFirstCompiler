@@ -38,9 +38,7 @@
 		1B1BECC824A2A5A5007D15F3 /* Test Let.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC624A2A5A5007D15F3 /* Test Let.swift */; };
 		1B1BECCB24A2AA19007D15F3 /* Test Strange Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECC924A2AA19007D15F3 /* Test Strange Types.swift */; };
 		1B1BECCE24A2AA56007D15F3 /* Test Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECCC24A2AA56007D15F3 /* Test Double.swift */; };
-		1B1BECD224A2D0AF007D15F3 /* Test Var.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECD124A2D0AF007D15F3 /* Test Var.swift */; };
 		1B1BECD324A2D0AF007D15F3 /* Test Var.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECD124A2D0AF007D15F3 /* Test Var.swift */; };
-		1B1BECD524A2D660007D15F3 /* Test Ref Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECD424A2D660007D15F3 /* Test Ref Values.swift */; };
 		1B1BECD624A2D660007D15F3 /* Test Ref Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BECD424A2D660007D15F3 /* Test Ref Values.swift */; };
 /* End PBXBuildFile section */
 
@@ -266,14 +264,12 @@
 				1B1BECAF24A2946B007D15F3 /* Begin.swift in Sources */,
 				1B1BECB124A2946B007D15F3 /* ResolveExpression.swift in Sources */,
 				1B1BECB924A2946B007D15F3 /* CreatingValues.swift in Sources */,
-				1B1BECD524A2D660007D15F3 /* Test Ref Values.swift in Sources */,
 				1B1BECA724A2946B007D15F3 /* Printing.swift in Sources */,
 				1B1BEC8824A29426007D15F3 /* main.swift in Sources */,
 				1B1BECB724A2946B007D15F3 /* IfStatements.swift in Sources */,
 				1B1BECA524A2946B007D15F3 /* Storage.swift in Sources */,
 				1B1BECA924A2946B007D15F3 /* TypeChecking.swift in Sources */,
 				1B1BECB324A2946B007D15F3 /* Errors.swift in Sources */,
-				1B1BECD224A2D0AF007D15F3 /* Test Var.swift in Sources */,
 				1B1BECAD24A2946B007D15F3 /* BuiltInOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

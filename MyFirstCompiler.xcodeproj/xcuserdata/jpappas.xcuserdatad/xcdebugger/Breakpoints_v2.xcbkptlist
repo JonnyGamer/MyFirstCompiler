@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5A440A12-8971-4AFD-B124-F196656D95BD"
-            shouldBeEnabled = "Yes"
+            uuid = "CD69A789-7D68-4A67-815D-16C20CDD8AED"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFirstCompiler/CreatingValues.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "redefineValue(_:)"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "assignment(_:_:_:_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

@@ -9,6 +9,12 @@ import XCTest
 
 extension TestLetValues {
     
+    func testBadLets() {
+        XCTAssertThrowsError(try runLine("let a Double = 0"))
+        XCTAssertThrowsError(try runLine("let b Double = b"))
+        XCTAssertThrowsError(try runLine("let c = c"))
+    }
+    
     // Immediate Assignment Test
     func testImmediateAssignment() {
         XCTAssertNoThrow(try runLine("let a Int = 0"))

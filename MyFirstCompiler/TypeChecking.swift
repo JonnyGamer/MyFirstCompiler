@@ -20,6 +20,13 @@ public func passTypeCheck(_ value: String) -> Bool {
 
 // Returns Your Type
 public func resolveType(_ name: String) -> String? {
+    if pointers[name]?.any == true {
+        if let ao = resolveType(resolveValue(pointers[name]?.val ?? "") ?? "") {
+            return ao
+        }
+    }
+    
+    
     if let wo = getType(name) { return wo }
     var o = name
     while let c = pointers[o] {

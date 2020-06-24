@@ -14,15 +14,8 @@ public var lineCount = 0
 public var types = ["Int", "Double", "String", "Regex", "Bool", "Void", "Type", "Undefined"] // "Character"
 public var wrappers = [1:["Test1"],2:["Test2"]]
 
-var pointers = [
-    String:(
-        type: String,
-        val: String,
-        const: Bool,
-        ref: Bool,
-        any: Bool
-    )
-]()
+typealias ValueStorage = (type: String, val: String, const: Bool, ref: Bool, any: Bool)
+var pointers = [String:ValueStorage]()
 
 public extension Dictionary where Key == String, Value == (type: String, val: String, const: Bool, ref: Bool, any: Bool) {
     mutating func add(_ key: Key,_ val: Value) {
