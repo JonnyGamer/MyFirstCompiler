@@ -72,8 +72,7 @@ I have removed the `Any` type in Swift, and replaced it with this new storage ty
  - `typeOf(a)` It prints String.
  - `a = Double`
  - `typeOf(a)` It prints Type.
-
-<br>
+ 
 
 ## Undefined Data
 You can choose to define a value without storing data into it.<br>
@@ -89,3 +88,24 @@ If an object is undefined, you can assign it later.
 You can also delete values.<br>
 `let a = 5`<br>
 `rmv a `
+
+## Built in Methods
+I have 2 built in methods `print` and `typeOf`<br>
+`print(5)` This prints anything inside the parenthesis.
+`typeOf(5)` This prints the type of the object inside the parenthesis.
+
+## Operators
+I have built a couple operators.<br>
+Operators are resolve left to right, based upon a numeric priority
+
+`=` - Assignment Operator: Creates a value on the lhs and assigns it to the rhs. Returns Void.
+`==` - Equality Operator: Checks if 2 values of the same type are equal. Returns a Bool.
+`is` - An alias of the `==` operator. I will add beter alias support soon. I love words, so I will allow wordy operators unlike Swift.
+`!=` - An Inequality Operator: Checks if 2 values of the same type are equal. Returns a Bool.
+`as` - A type checking operator: `5 as Int` returns `true`.
+
+## Control Flow
+(Talk about if, or, or if, end if)<br>(Talk about Boolean Expressions)<br>(Talk about how you can nest them)
+
+## Skip Statements
+(Talk about skip, n skip, skip if, and n skip if)<br>(Talk about Integer Expressions)
