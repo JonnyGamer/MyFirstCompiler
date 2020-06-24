@@ -126,7 +126,7 @@ If statements must start with an `if` and end in an `end if`<br>
 
 Immediately following the `if` must be a Boolean Expression that resolves either to `true` or `false`
 
-You can *even nest em*
+You can *even nest em*<br>
 `if true`<br>
 `   if true`<br>
 `      print("We both truuue")`<br>
