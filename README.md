@@ -7,11 +7,18 @@ There are 4 ways you can save data<br>
 ```let``` ```var``` ```ref``` ```any```<br>
 I will explain each one
 
-• **let**<br>
+>• **let**<br>
 Let is immutable.<br>
 Once you save an object into ```let```, you may not change it later.
-
-• ```let a = 7``` 'a' has been saved to 7. 'a' has also been inferred to be an Int.<br>
+>
+>• ```let a = 7``` 'a' has been saved to 7. 'a' has also been inferred to be an Int.<br>
 • ```let b Int = 7``` 'b' has been saved to 7. 'b' has also been explicitly defined to be an Int.<br>
 • ```let foo = 7; foo = 8``` This throws an error, because values stored using 'let' cannot be redefined.
+<br><br>
 
+>• **var**<br>
+Var can be mutated.
+Once you save an object into ```var```, you may reassign it later. However, it must be the same type.
+>
+>• ```var a = 88; a = 90``` 'a' starts out being '88', but then mutates to become '90'
+<be><br>
