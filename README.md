@@ -40,15 +40,11 @@ Once you save an object into `let`, you may not change it later.
  - `let b Int = 7` 'b' has been saved to 7. 'b' has also been explicitly defined to be an Int.<br>
  - `let foo = 7; foo = 8` This throws an error, because values stored using 'let' cannot be redefined.
 
-<br>
-
 ### var
 Var can be mutated.
 Once you save an object into `var`, you may reassign it later. However, it must be the same type.
  - `var a = 88; a = 90` 'a' starts out being '88', but then mutates to become '90'
  - `var a = 500; a = "magic"` This throws an error. The Type of var values cannot be mutated
-
-<br>
 
 ### ref
 Ref can store references of values. It can also be mutated to store different references of the same type.
@@ -60,8 +56,6 @@ Let's see this in action.
  - `a = 300`
  - `print(b)` This prints `300`. Since a was mutated
 
-<br>
-
 ### any
 Any is a special value. It's value is mutable, and it's Type is also mutable. It is also can be a ref.<br>
 Woah.
@@ -72,7 +66,6 @@ I have removed the `Any` type in Swift, and replaced it with this new storage ty
  - `typeOf(a)` It prints String.
  - `a = Double`
  - `typeOf(a)` It prints Type.
- 
 
 ## Undefined Data
 You can choose to define a value without storing data into it.<br>
