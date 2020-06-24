@@ -75,7 +75,6 @@ I have removed the `Any` type in Swift, and replaced it with this new storage ty
 
 <br>
 
-
 ## Undefined Data
 You can choose to define a value without storing data into it.<br>
 It is now Undefined.<br>
@@ -83,10 +82,10 @@ It is now Undefined.<br>
 `print(a)` undefined is printed.<br>
 You can now assign it later.<br>
 `a = 5`
-This is not a mutation. It's an assignment.
+This is not a mutation. It's an assignment.<br>
 If an object is undefined, you can assign it later.
 
 • **rmv**
-You can also delete values.
-`let a = 5`
+You can also delete values.<br>
+`let a = 5`<br>
 `rmv a `
